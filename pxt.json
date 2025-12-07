@@ -1,0 +1,32 @@
+{
+    "name": "BallonSondeV3R6",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v1": "*",
+        "pxt-calliope-sparkfunqwiicopenlog": "github:callitgs3/pxt-calliope-sparkfunqwiicopenlog#755a028cda8039986bc086975de933aed8c45b38",
+        "pxt-calliope-neo-6m": "github:callitgs3/pxt-calliope-neo-6m#a5075286145cd5d1edc3dabccc66ddde4dc20908",
+        "BME280": "github:makecode-extensions/bme280#v1.1.0",
+        "Sunlightsensor-SI1145": "github:calliope-edu/pxt-sunlightsensor-si1145#2a1e0f22d499c21d9b0fa5df4b8401c4f68aac56",
+        "pxt-veml6070": "github:callitgs3/pxt-veml6070#378f0e55a6719818e41d87d05ef9993d87e652b9",
+        "pxt-pct2075": "github:CalliTGS3/pxt-pct2075#f5d7e91d1224ae351faaf1688be37e7869fdc5fa",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "ina219.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.41",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
