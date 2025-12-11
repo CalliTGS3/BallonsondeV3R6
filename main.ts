@@ -24,7 +24,7 @@ function Senden () {
     radio.sendString("LF:" + Luftfeuchte)
     radio.sendString("LI:" + Lichtstaerke)
     radio.sendString("UV:" + UV)
-    radio.sendString("U2:" + UV)
+    radio.sendString("U2:" + UV2)
     radio.sendString("IR:" + Infrarot)
     radio.sendString("PS:" + Leistung)
 }
